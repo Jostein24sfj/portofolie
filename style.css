@@ -24,8 +24,7 @@ body {
   flex-direction: column;
   text-align: center;
   gap: 38px;
-  padding-inline: 94px;
-  margin: 64px 0;
+  /* margin: 64px 0; */
   color: rgb(230, 95, 120);
 }
 
@@ -35,7 +34,7 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  body {
+  main {
     padding-inline: 24px;
   }
 }
@@ -102,8 +101,8 @@ a {
 }
 .sectionLayout {
   justify-content: center;
-  padding: 12px;
-  gap: 48px;
+  padding: 24px;
+  /* gap: 48px; */
 }
 .sectionContent {
   background-color: rgb(30, 30, 30);
@@ -215,7 +214,7 @@ button:hover {
 header {
   /* border: 1px solid black; */
   border-radius: 24px;
-  padding: 25px;
+  /* padding: 25px; */
 }
 
 main {
@@ -232,10 +231,13 @@ section {
 
 footer {
   /* border: 1px solid rgb(255, 78, 78); */
-  border-radius: 24px;
+  /* border-radius: 24px; */
+  height: 300px;
   display: flex;
+  padding: 24px;
   justify-content: space-between;
-  background-color: black;
+  align-items: center;
+  background-color: rgb(15, 15, 15);
 }
 
 /* utility classes */
